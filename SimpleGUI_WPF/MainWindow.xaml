@@ -1,0 +1,27 @@
+﻿<Window x:Class="SimpleGUI_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleGUI_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <DockPanel Grid.Column="0" FlowDirection="LeftToRight">
+            <Button DockPanel.Dock="Top" Margin="5" Padding="3" IsEnabled="True" Name="InitializeButton" Click="InitializeButton_OnClick">1.Initialize</Button>
+            <Button DockPanel.Dock="Top" Margin="5" Padding="3" IsEnabled="False" Name="SearchButton" Click="SearchButton_OnClick">2.Search Device</Button>
+            <Button DockPanel.Dock="Top" Margin="5" Padding="3" IsEnabled="False" Name="OpenButton" Click="OpenButton_OnClick">3.Open First Device, Grabber 10 photos</Button>
+            <Button DockPanel.Dock="Top" Margin="5" Padding="3" IsEnabled="False" Name="CloseButton" Click="CloseButton_OnClick">4.Close Device</Button>
+            <ScrollViewer>
+                <TextBox IsReadOnly="True" VerticalScrollBarVisibility="Auto" Name="ConsoleView"></TextBox>
+            </ScrollViewer>
+        </DockPanel>
+        <Border Grid.Column="1" BorderThickness="1">
+            <Image Stretch="Uniform" Name="GrabbedImage"></Image>
+        </Border>
+    </Grid>
+</Window>
