@@ -11,7 +11,7 @@ Provide C# sample code using the LUCID camera.
 
 Download [Visual Studio 2017 Community](https://visualstudio.microsoft.com/downloads/)
 
-Download [Arena SKD](https://thinklucid.com/downloads-hub/)
+Download [Arena SDK](https://thinklucid.com/downloads-hub/)
 
 Q&A
 
