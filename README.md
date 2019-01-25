@@ -15,7 +15,7 @@ Download [Arena SDK](https://thinklucid.com/downloads-hub/)
 
 Q&A
 
-If you are a Taiwan user, and you have any question or sample code requirement, please contact me.
+If you are a Taiwanese user, and you have any question or sample code requirement, please contact me.
 
 If you found the issues in my sample code, please use the Github issue report system.
 
