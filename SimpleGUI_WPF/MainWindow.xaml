@@ -14,7 +14,7 @@
         <DockPanel Grid.Column="0" FlowDirection="LeftToRight">
             <Button DockPanel.Dock="Top" Margin="5" Padding="3" IsEnabled="True" Name="InitializeButton" Click="InitializeButton_OnClick">1.Initialize</Button>
             <Button DockPanel.Dock="Top" Margin="5" Padding="3" IsEnabled="False" Name="SearchButton" Click="SearchButton_OnClick">2.Search Device</Button>
-            <Button DockPanel.Dock="Top" Margin="5" Padding="3" IsEnabled="False" Name="OpenButton" Click="OpenButton_OnClick">3.Open First Device, Grabber 10 photos</Button>
+            <Button DockPanel.Dock="Top" Margin="5" Padding="3" IsEnabled="False" Name="OpenButton" Click="OpenButton_OnClick">3.Open First Device, grab 10 photos</Button>
             <Button DockPanel.Dock="Top" Margin="5" Padding="3" IsEnabled="False" Name="CloseButton" Click="CloseButton_OnClick">4.Close Device</Button>
             <ScrollViewer>
                 <TextBox IsReadOnly="True" VerticalScrollBarVisibility="Auto" Name="ConsoleView"></TextBox>
