@@ -36,7 +36,7 @@ namespace SimpleGUI_WPF
         private void SetUpCamera(IDevice device)
         {
             // Set AcquisitionMode
-            (device.NodeMap.GetNode("AcquisitionMode") as IEnumeration).Symbolics.FromString("Continuous");
+            (device.NodeMap.GetNode("AcquisitionMode") as IEnumeration).FromString("Continuous");
             (device.NodeMap.GetNode("TriggerMode") as IEnumeration).FromString("Off");
 
             // Set the FrameRate
